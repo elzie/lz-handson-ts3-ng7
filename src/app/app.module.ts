@@ -10,6 +10,7 @@ import { ContactComponent } from './contact/contact.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule, FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AnimComponent } from './anim/anim.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HeaderComponent,
     AboutComponent,
     HomeComponent,
-    ContactComponent
+    ContactComponent,
+    AnimComponent
   ],
   imports: [
     BrowserModule,

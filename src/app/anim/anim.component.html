@@ -1,0 +1,6 @@
+<div [@anim]="isOpen ? 'open' : 'closed'" class="open-close-container">
+    <p>The Magic Box is now {{isOpen ? 'Open' : 'Closed'}}
+    </p>
+</div>
+
+<button (click)="toggle()"> Toggle! </button>
