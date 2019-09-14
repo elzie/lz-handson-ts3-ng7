@@ -25,5 +25,6 @@ export class ContactComponent implements OnInit {
       return;
     }
     this.success = true;
+
   }
 }
